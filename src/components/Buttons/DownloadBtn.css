@@ -1,0 +1,48 @@
+.button-cv {
+  padding: 0.8rem 4rem;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border: 1px solid #06c134a9;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.button-cv .text {
+  transition: 0.4s ease-in-out;
+  color: #b3b3b3;
+}
+
+.svg {
+  transform: translateY(-20px) rotate(30deg);
+  opacity: 0;
+  width: 2rem;
+  transition: 0.4s ease-in-out;
+}
+
+.button-cv:hover {
+  background: #06c134a9;
+  box-shadow: 0 0 30px 5px #06c134a9;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button-cv:hover .svg {
+  display: inline-block;
+  transform: translateY(0px) rotate(0deg);
+  opacity: 1;
+}
+
+.button-cv:hover .text {
+  opacity: 0;
+}
+
+.button-cv:active {
+  scale: 0.97;
+}

@@ -1,0 +1,89 @@
+.container-notFound {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 18.8vh;
+  gap: 49px;
+  background-color: rgb(30, 29, 29);
+}
+.title-notFound {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 900;
+  margin: 10px;
+}
+.button-notFount {
+  text-decoration: none;
+  color: aliceblue;
+}
+.loader-radar {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 5px 5px 70px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.loader-radar::before {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  background: transparent;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 25px #06c134a9,
+    inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+.loader-radar::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  box-shadow: inset -5px -5px 25px #06c134a9,
+    inset 5px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+.loader-radar span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  transform-origin: top left;
+  animation: radar81 2s linear infinite;
+  border-top: 1px dashed #fff;
+}
+
+.loader-radar span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: seagreen;
+  transform-origin: top left;
+  transform: rotate(-55deg);
+  filter: blur(30px) drop-shadow(20px 20px 20px seagreen);
+}
+
+@keyframes radar81 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,7 @@
+.social-container img {
+  margin-left: 1rem;
+  width: 25px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 4px 4px 9px rgba(32, 255, 2, 0.3);
+}

@@ -1,0 +1,108 @@
+.container-about {
+  width: 85%;
+  margin: auto;
+  padding: 10vh 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.container-about .article-about {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  gap: 20px;
+}
+.img-about {
+  mask-image: linear-gradient(rgb(0, 0, 0) 80%, transparent);
+  width: 250px;
+  border: 1px solid rgba(10, 250, 6, 0.519);
+  border-radius: 10%;
+  margin: auto;
+}
+.container-about .article-about .description-about {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.container-about .article-about .ball {
+  display: flex;
+  gap: 5px;
+}
+.article-about .ball div {
+  background: linear-gradient(380deg, rgba(255, 255, 255), #06c134a9);
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.section-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.section-about article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section-about .title-about {
+  font-size: 3rem;
+  margin: 0 auto;
+  background: linear-gradient(380deg, rgba(255, 255, 255), #06c134a9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-about h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+.section-about span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills h2 {
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  font-weight: 800;
+}
+.skills article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 3rem;
+}
+.img-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.logo-about {
+  width: 150px;
+}
+@media (min-width: 1024px) {
+  .container-about .article-about {
+    width: 40%;
+  }
+  .container-about .article-about section {
+    width: 40%;
+  }
+  .logo-about {
+    width: 400px;
+  }
+  .skills article {
+    margin: 4rem;
+  }
+}
