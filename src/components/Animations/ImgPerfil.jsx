@@ -7,7 +7,7 @@ export const ImgPerfil = () => {
       <div className="loader_cube loader_cube--glowing">
         <img
           className="img-about"
-          src="./src/assets/img/mi-foto-perfil-Photoroom.png"></img>
+          src="./src/assets/mi-foto-perfil-Photoroom.png"></img>
       </div>
     </div>
   );
