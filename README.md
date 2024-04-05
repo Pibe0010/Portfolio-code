@@ -1,4 +1,4 @@
-# Portafolio React + Vite
+# Portfolio React + Vite
 
 Utilizamos React para crear el proyecto. Que consta de 4 secciones
 
