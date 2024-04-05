@@ -1,5 +1,5 @@
 import "./ImgPerfil.css";
-import perfil from "../src/assets/img/mi-foto-perfil-Photoroom.png";
+import perfil from "../../assets/img/mi-foto-perfil-Photoroom.png";
 
 export const ImgPerfil = () => {
   return (
