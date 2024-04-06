@@ -3,14 +3,14 @@ export const DataSocials = [
   {
     id: 1,
     img: "../assets/img/Socials/github_git_icon_145985.png",
-    url: "https://github.com/Pibe0010",
+    url: ,
     name: "github",
   },
 
   {
     id: 3,
     img: "../assets/img/Socials/linkedin.png",
-    url: "https://www.linkedin.com/in/daniel-montero-castro/",
+    url: ,
     name: "linkedin",
   },
 ];
