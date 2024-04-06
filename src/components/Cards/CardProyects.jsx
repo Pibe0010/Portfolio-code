@@ -1,7 +1,7 @@
 import "./CardProyects.css";
 import { DataProyects } from "../../Utils/DataProyects.js";
 import { UrLinks } from "../UrLinks.jsx";
-import { DataSocials } from "../../Utils/DataSocials.js";
+import github from "../../assets/img/Socials/github_git_icon_145985.png";
 
 export const Cards = () => {
   return (
@@ -27,8 +27,8 @@ export const Cards = () => {
               <a href={card.link}>
                 <img
                   className="card-descr-tech "
-                  src={DataSocials[0].img}
-                  alt={DataSocials[0].name}
+                  src={github}
+                  alt="logo github"
                 />
               </a>
             </section>
