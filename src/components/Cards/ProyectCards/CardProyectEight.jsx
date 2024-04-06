@@ -1,0 +1,44 @@
+import "./CardProyects.css";
+import { UrLinks } from "../../UrLinks.jsx";
+import github from "../../../assets/img/Socials/github_git_icon_145985.png";
+import proyectEight from "../../../../public/Proyects/NFT-market.jpg";
+import html from "../../../../public/Skills/html-5-svgrepo-com.svg";
+import css from "../../../../public/Skills/css-3-svgrepo-com.svg";
+import JS from "../../../../public/Skills/javascript-svgrepo-com.svg";
+import react from "../../../../public/Skills/react-svgrepo-com.svg";
+import solidity from "../../../../public/Skills/light-solidity-svgrepo-com.svg";
+
+export const CardEight = () => {
+  return (
+    <>
+      <section className="card">
+        <figcaption className="container-img">
+          <a href="https://nft-dapp-thegodesingcode.netlify.app/">
+            <img className="img" src={proyectEight} alt="Foto mejore info" />
+          </a>
+        </figcaption>
+        <UrLinks
+          className="link-cards"
+          to="https://nft-dapp-thegodesingcode.netlify.app/">
+          <h3 className="card-title ">Dapp NFT Market</h3>
+        </UrLinks>
+        <p className="card-descr">
+          Transforma una foto en un NFT y publícalo en el marketplace para
+          compartir y exhibir tu obra digital. Descubre cómo tus creaciones
+          cobran vida en el mercado del arte digital.
+        </p>
+        <section className="card-tech">
+          <img src={html} className="crad-tech-img"></img>
+          <img src={css} className="crad-tech-img"></img>
+          <img src={JS} className="crad-tech-img"></img>
+          <img src={react} className="crad-tech-img"></img>
+          <img src={solidity} className="crad-tech-img"></img>
+
+          <a href="https://github.com/Pibe0010/Market-PLace-NFT">
+            <img className="card-descr-tech " src={github} alt="logo github" />
+          </a>
+        </section>
+      </section>
+    </>
+  );
+};
