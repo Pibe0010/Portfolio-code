@@ -50,7 +50,7 @@
 .btn-home h2 {
   font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 900;
-  text-align: center;
+  margin: 0 auto;
 }
 .btn-home .btn-container {
   width: 100%;
