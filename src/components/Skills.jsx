@@ -7,7 +7,7 @@ export const Skills = () => {
       {DataTechs.map((skill) => {
         return (
           <div className="tooltip-container" key={skill.id}>
-            <img className="tooltip" src={skill.img} alt="" />
+            <span className="tooltip"></span>
             <span className="text">{skill.name}</span>
             <span className="star">{skill.star}</span>
           </div>
