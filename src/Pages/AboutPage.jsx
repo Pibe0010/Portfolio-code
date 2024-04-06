@@ -2,6 +2,7 @@ import "./About.css";
 import { MainLayout } from "../Layout/MainLayout.jsx";
 import { Skills } from "../components/Skills.jsx";
 import { ImgPerfil } from "../components/Animations/ImgPerfil.jsx";
+import logo from "../assets/4913181.png";
 
 export const AboutPage = () => {
   return (
@@ -45,11 +46,7 @@ export const AboutPage = () => {
               <span>WordPress</span>
             </section>
             <section className="img-logo">
-              <img
-                className="logo-about"
-                src="./src/assets/4913181.png"
-                alt="logo"
-              />
+              <img className="logo-about" src={logo} alt="logo" />
             </section>
           </article>
         </section>

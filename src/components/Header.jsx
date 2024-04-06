@@ -4,6 +4,7 @@ import { MenuNavLink } from "./MenuNavLink.jsx";
 import { ThemeSwicher } from "./ThemeSwicher.jsx";
 import { Icons } from "./Icons.jsx";
 import { SocialNetworksPage } from "../Pages/SocialNetworksPage.jsx";
+import logo from "../assets/4913181.png";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ export const Header = () => {
     <>
       <header className="header">
         <a href="/">
-          <img className="logo" src="./src/assets/4913181.png" alt="logo" />
+          <img className="logo" src={logo} alt="logo" />
         </a>
 
         <button onClick={openMenuToggle}>
