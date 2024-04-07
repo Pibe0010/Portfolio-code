@@ -4,7 +4,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20vh;
   gap: 15rem;
 }
 
@@ -45,6 +44,7 @@
   width: 420px;
   height: 200px;
   text-align: center;
+  margin-bottom: 20px;
   gap: 10px;
 }
 .btn-home h2 {
@@ -74,11 +74,17 @@
   font-size: 1.3rem;
   cursor: pointer;
 }
+.animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 1024px) {
   .container-home {
     height: 85.5vh;
     gap: 5rem;
+    padding-bottom: 20vh;
   }
   .article-home {
     margin: auto;
