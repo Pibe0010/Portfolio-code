@@ -1,8 +1,8 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectOne from "../../../../public/Proyects/mejores-info.png";
 import wordpress from "../../../../public/Skills/wordpress-svgrepo-com.svg";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardOne = () => {
   return (
@@ -14,9 +14,9 @@ export const CardOne = () => {
           </a>
         </figcaption>
 
-        <UrLinks className="link-cards" to="https://thegodesigshop.com/">
+        <LinksNavigate className="link-cards" to="https://thegodesigshop.com/">
           <h3 className="card-title ">Las mejores info </h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           Proporcionamos información precisa y confiable para ayudarte a tomar
           la decisión que mejor se adapte a tus necesidades. Descubre

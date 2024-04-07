@@ -1,10 +1,10 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectTree from "../../../../public/Proyects/nave.png";
 import html from "../../../../public/Skills/html-5-svgrepo-com.svg";
 import css from "../../../../public/Skills/css-3-svgrepo-com.svg";
 import JS from "../../../../public/Skills/javascript-svgrepo-com.svg";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardTree = () => {
   return (
@@ -16,11 +16,11 @@ export const CardTree = () => {
           </a>
         </figcaption>
 
-        <UrLinks
+        <LinksNavigate
           className="link-cards"
           to="https://thegodesigcode-naves.netlify.app/">
           <h3 className="card-title ">Destrulle Meteoritos </h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           Destruye los meteoritos lo más rápido posible para alcanzar la mayor
           puntuación en menos de 60 segundos. Tendrás 5 vidas para lograrlo.

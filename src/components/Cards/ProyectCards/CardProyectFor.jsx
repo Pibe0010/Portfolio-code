@@ -1,10 +1,10 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectFor from "../../../../public/Proyects/pedra.papel-tijera.png";
 import html from "../../../../public/Skills/html-5-svgrepo-com.svg";
 import css from "../../../../public/Skills/css-3-svgrepo-com.svg";
 import JS from "../../../../public/Skills/javascript-svgrepo-com.svg";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardFor = () => {
   return (
@@ -15,11 +15,11 @@ export const CardFor = () => {
             <img className="img" src={proyectFor} alt="Foto mejore info" />
           </a>
         </figcaption>
-        <UrLinks
+        <LinksNavigate
           className="link-cards"
           to="https://piedra-papel-tijera-spock-lagarto.netlify.app/">
           <h3 className="card-title ">Piedra Papel Tijera Spock </h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           Disfruta del clásico juego de piedra, papel y tijera contra la
           máquina, con la emoción añadida de un nivel extra: piedra, papel,

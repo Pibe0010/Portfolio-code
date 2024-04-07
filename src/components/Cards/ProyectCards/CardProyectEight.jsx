@@ -1,5 +1,5 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectEight from "../../../../public/Proyects/NFT-market.jpg";
 import html from "../../../../public/Skills/html-5-svgrepo-com.svg";
@@ -17,11 +17,11 @@ export const CardEight = () => {
             <img className="img" src={proyectEight} alt="Foto mejore info" />
           </a>
         </figcaption>
-        <UrLinks
+        <LinksNavigate
           className="link-cards"
           to="https://nft-dapp-thegodesingcode.netlify.app/">
           <h3 className="card-title ">Dapp NFT Market</h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           Transforma una foto en un NFT y publícalo en el marketplace para
           compartir y exhibir tu obra digital. Descubre cómo tus creaciones

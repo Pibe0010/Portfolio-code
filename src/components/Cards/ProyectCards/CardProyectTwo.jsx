@@ -1,8 +1,8 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectTwo from "../../../../public/Proyects/pexels-monstera-production-6621323.jpg";
 import wordpress from "../../../../public/Skills/wordpress-svgrepo-com.svg";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardTwo = () => {
   return (
@@ -14,9 +14,9 @@ export const CardTwo = () => {
           </a>
         </figcaption>
 
-        <UrLinks className="link-cards" to="https://lunevashop.com/">
+        <LinksNavigate className="link-cards" to="https://lunevashop.com/">
           <h3 className="card-title ">Luneva Shop </h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           E-commerce de ventas de jabones artesanales. Puedes añadir jabones al
           carrito, comprarlos, con tres secciones stock de jabones, próximamente

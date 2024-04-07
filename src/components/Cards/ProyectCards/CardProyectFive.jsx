@@ -1,10 +1,10 @@
 import "./CardProyects.css";
-import { UrLinks } from "../../UrLinks.jsx";
 import github from "../../../assets/img/Socials/github_git_icon_145985.png";
 import proyectFive from "../../../../public/Proyects/raz3r.png";
 import html from "../../../../public/Skills/html-5-svgrepo-com.svg";
 import css from "../../../../public/Skills/css-3-svgrepo-com.svg";
 import JS from "../../../../public/Skills/javascript-svgrepo-com.svg";
+import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardFive = () => {
   return (
@@ -15,11 +15,11 @@ export const CardFive = () => {
             <img className="img" src={proyectFive} alt="Foto mejore info" />
           </a>
         </figcaption>
-        <UrLinks
+        <LinksNavigate
           className="link-cards"
           to="https://thegodesigs-juego-phaser3.netlify.app/">
           <h3 className="card-title ">Phaser 3 </h3>
-        </UrLinks>
+        </LinksNavigate>
         <p className="card-descr">
           Embárcate en la aventura de recolectar estrellas a lo largo de la
           pantalla. Al acumular 120 puntos, avanzarás al siguiente nivel. Pero
