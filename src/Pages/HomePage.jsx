@@ -1,4 +1,5 @@
 import "./Home.css";
+import "animate.css";
 import { MainLayout } from "../Layout/MainLayout.jsx";
 import { CurriculumnPDF } from "../components/CurriculumnPDF.jsx";
 import { PDFDownloadLink } from "@react-pdf/renderer";
@@ -13,7 +14,9 @@ export const HomePage = () => {
     <MainLayout>
       <section className="container-home">
         <article className="article-home">
-          <h1 className="title-home">Desarrollador Web </h1>
+          <h1 className="title-home animate__animated animate__bounceInLeft">
+            Desarrollador Web
+          </h1>
           <p className="description">
             Programador enfocado en el desarrollo web y app. Tengo habilidades
             tanto en el Front-End como en Back-End. Sin embargo mi especialidad
@@ -25,11 +28,13 @@ export const HomePage = () => {
             <div></div>
           </div>
         </article>
-        <section className="animation">
+        <section className="animation animate__animated animate__bounceInUp">
           <Cube />
         </section>
         <section className="btn-home">
-          <h2>Daniel Montero Castro</h2>
+          <h2 className="animate__animated animate__bounceInRight">
+            Daniel Montero Castro
+          </h2>
           <div className="btn-container">
             <ButtonGmail className="button">CONTACTAR</ButtonGmail>
 

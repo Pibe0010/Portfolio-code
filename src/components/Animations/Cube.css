@@ -2,10 +2,9 @@
   width: 200px;
   height: 200px;
   perspective: 800px;
-  margin: 50px auto;
-  position: absolute;
-  left: 23%;
-  top: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cube {
@@ -20,8 +19,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-
   font-size: 18px;
+  font-weight: 900;
   text-align: center;
   line-height: 200px;
   background: transparent;
