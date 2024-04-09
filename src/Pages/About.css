@@ -15,8 +15,9 @@
 }
 .img-about {
   mask-image: linear-gradient(rgb(0, 0, 0) 80%, transparent);
-  width: 250px;
-  border: 1px solid rgba(10, 250, 6, 0.519);
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 10%;
   margin: auto;
 }
@@ -72,7 +73,7 @@
   justify-content: center;
 }
 .skills h2 {
-  font-size: clamp(2.5rem, 5vw, 3rem);
+  font-size: clamp(2.2rem, 5vw, 3rem);
   font-weight: 800;
 }
 .skills article {

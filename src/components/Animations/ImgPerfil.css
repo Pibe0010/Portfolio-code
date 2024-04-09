@@ -18,8 +18,8 @@
 
 .loader_cube--glowing {
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
 }
 
 .loader_cube--color {
