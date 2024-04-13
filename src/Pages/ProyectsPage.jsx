@@ -8,6 +8,7 @@ import { CardFive } from "../components/Cards/ProyectCards/CardProyectFive.jsx";
 import { CardSix } from "../components/Cards/ProyectCards/CardProyectSix.jsx";
 import { CardSeven } from "../components/Cards/ProyectCards/CardProyectSeven.jsx";
 import { CardEight } from "../components/Cards/ProyectCards/CardProyectEight.jsx";
+import { CardNinth } from "../components/Cards/ProyectCards/CardProyectNinth.jsx";
 
 export const ProyectsPage = () => {
   return (
@@ -15,6 +16,7 @@ export const ProyectsPage = () => {
       <h1 className="title-proyect">Proyectos</h1>
       <section className="container-proyects">
         <article className="proyects">
+          <CardNinth />
           <CardOne />
           <CardTwo />
           <CardTree />
