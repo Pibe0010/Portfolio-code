@@ -42,6 +42,9 @@
   visibility: hidden;
   color: aliceblue;
 }
+.hamburger {
+  display: none;
+}
 button {
   background-color: transparent;
   border: none;
@@ -57,6 +60,9 @@ button {
   .closeMenu {
     display: block;
     visibility: visible;
+  }
+  .hamburger {
+    display: block;
   }
   .nav {
     opacity: 0;
