@@ -42,9 +42,6 @@
   visibility: hidden;
   color: aliceblue;
 }
-.hamburger {
-  display: none;
-}
 button {
   background-color: transparent;
   border: none;
