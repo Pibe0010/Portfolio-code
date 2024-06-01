@@ -7,10 +7,10 @@ export const MainLayout = ({ children }) => {
   const changeMode = theme ? "dark" : "light";
 
   return (
-    <>
+    <section className="main_leyaut">
       <Header />
       <main className={`mainContain ${changeMode}`}>{children}</main>
       <footer className="footer"> Copyright © Daniel Montero 2024</footer>
-    </>
+    </section>
   );
 };

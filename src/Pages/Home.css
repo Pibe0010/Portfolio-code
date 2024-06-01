@@ -82,7 +82,7 @@
 
 @media (min-width: 1024px) {
   .container-home {
-    height: 85.5vh;
+    height: 100vh;
     gap: 5rem;
     padding-bottom: 20vh;
   }

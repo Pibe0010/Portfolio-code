@@ -3,7 +3,7 @@ import "./DownloadBtn.css";
 export const DownloadBtn = () => {
   return (
     <button className="button-cv">
-      <p className="text">DESCARGAR</p>
+      <p className="text">CV</p>
       <div className="svg">
         <svg
           xmlns="http://www.w3.org/2000/svg"
