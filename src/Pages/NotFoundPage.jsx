@@ -1,6 +1,6 @@
-import "./NotFoundPage.css";
 import { Button } from "../components/Buttons/Button.jsx";
 import { MenuNavLink } from "../components/MenuNavLink.jsx";
+import "./StylePages/NotFoundPage.css";
 
 export const NotFoundPage = () => {
   return (

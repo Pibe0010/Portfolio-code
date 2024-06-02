@@ -1,4 +1,4 @@
-import "./SocialNetworks.css";
+import "./StylePages/SocialNetworks.css";
 
 export const SocialNetworksPage = () => {
   return (

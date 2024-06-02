@@ -1,10 +1,10 @@
-import "./Header.css";
 import { useEffect, useState } from "react";
 import { MenuNavLink } from "./MenuNavLink.jsx";
 import { ThemeSwicher } from "./ThemeSwicher.jsx";
 import { SocialNetworksPage } from "../Pages/SocialNetworksPage.jsx";
 import logo from "../assets/4913181.png";
 import { MenuHamburger } from "./MenuHamburger.jsx";
+import "./StyleComponents/Header.css";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

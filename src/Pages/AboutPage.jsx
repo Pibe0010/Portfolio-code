@@ -1,4 +1,4 @@
-import "./About.css";
+import "./StylePages/About.css";
 import { MainLayout } from "../Layout/MainLayout.jsx";
 import { Skills } from "../components/Skills.jsx";
 import { ImgPerfil } from "../components/Animations/ImgPerfil.jsx";
