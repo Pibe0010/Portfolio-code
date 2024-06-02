@@ -1,4 +1,3 @@
-import "./Proyects.css";
 import { MainLayout } from "../Layout/MainLayout.jsx";
 import { CardOne } from "../components/Cards/ProyectCards/CardProyectOne.jsx";
 import { CardTwo } from "../components/Cards/ProyectCards/CardProyectTwo.jsx";
@@ -9,6 +8,7 @@ import { CardSix } from "../components/Cards/ProyectCards/CardProyectSix.jsx";
 import { CardSeven } from "../components/Cards/ProyectCards/CardProyectSeven.jsx";
 import { CardEight } from "../components/Cards/ProyectCards/CardProyectEight.jsx";
 import { CardNinth } from "../components/Cards/ProyectCards/CardProyectNinth.jsx";
+import "./StylePages/Proyects.css";
 
 export const ProyectsPage = () => {
   return (

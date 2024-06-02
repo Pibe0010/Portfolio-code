@@ -5,7 +5,7 @@ import { AboutPage } from "./Pages/AboutPage.jsx";
 import { ProyectsPage } from "./Pages/ProyectsPage.jsx";
 import { SerticatedPage } from "./Pages/SerticatedPage.jsx";
 
-function App() {
+export const App = () => {
   return (
     <>
       <Routes>

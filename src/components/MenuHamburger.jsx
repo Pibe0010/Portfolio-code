@@ -1,4 +1,4 @@
-import "./MenuHamburger.css";
+import "./StyleComponents/MenuHamburger.css";
 
 export const MenuHamburger = ({ className, onClick }) => {
   return (

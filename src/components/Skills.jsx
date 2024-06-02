@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "./StyleComponents/Skills.css";
 import { DataTechs } from "../Utils/DataTech.js";
 
 export const Skills = () => {
