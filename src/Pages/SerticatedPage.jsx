@@ -6,6 +6,8 @@ import { CardSerticatedFor } from "../components/Cards/CardSerticateds/CardSerti
 import { CardSerticatedFive } from "../components/Cards/CardSerticateds/CardSeticatedFive.jsx";
 import { CardSerticatedSix } from "../components/Cards/CardSerticateds/CardSerticatedSix.jsx";
 import "./StylePages/Serticated.css";
+import { CardSerticatedSeven } from "../components/Cards/CardSerticateds/CardSerticatedSeven.jsx";
+import { CardSerticatedEight } from "../components/Cards/CardSerticateds/CardSerticatedeEight.jsx";
 
 export const SerticatedPage = () => {
   return (
@@ -19,6 +21,8 @@ export const SerticatedPage = () => {
           <CardSerticatedFor />
           <CardSerticatedFive />
           <CardSerticatedSix />
+          <CardSerticatedSeven />
+          <CardSerticatedEight />
         </section>
       </section>
     </MainLayout>
