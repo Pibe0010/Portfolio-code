@@ -35,38 +35,36 @@ export const Header = () => {
   const addMenuOpen = menuOpen ? "openMenu" : "";
 
   return (
-    <>
-      <header className="header">
-        <a href="/">
-          <img className="logo" src={logo} alt="logo" />
-        </a>
-        <MenuHamburger
-          className={`closeMenu ${addMenuOpen}`}
-          onClick={openMenuToggle}
-        />
-        <nav className={`nav ${addClassMenu}`} id="nav">
-          <ul className="navList">
-            <MenuNavLink name="INICIO" url="/" menuClose={openMenuToggle} />
-            <MenuNavLink
-              name="SOBRE MI"
-              url="/about"
-              menuClose={openMenuToggle}
-            />
-            <MenuNavLink
-              name="PROYECTOS"
-              url="/proyects"
-              menuClose={openMenuToggle}
-            />
-            <MenuNavLink
-              name="TITULACIÓNES"
-              url="/serticated"
-              menuClose={openMenuToggle}
-            />
-            <SocialNetworksPage />
-            <ThemeSwicher />
-          </ul>
-        </nav>
-      </header>
-    </>
+    <header className="header">
+      <a href="/">
+        <img className="logo" src={logo} alt="logo" />
+      </a>
+      <MenuHamburger
+        className={`closeMenu ${addMenuOpen}`}
+        onClick={openMenuToggle}
+      />
+      <nav className={`nav ${addClassMenu}`} id="nav">
+        <ul className="navList">
+          <MenuNavLink name="INICIO" url="/" menuClose={openMenuToggle} />
+          <MenuNavLink
+            name="SOBRE MI"
+            url="/about"
+            menuClose={openMenuToggle}
+          />
+          <MenuNavLink
+            name="PROYECTOS"
+            url="/proyects"
+            menuClose={openMenuToggle}
+          />
+          <MenuNavLink
+            name="TITULACIÓNES"
+            url="/serticated"
+            menuClose={openMenuToggle}
+          />
+          <SocialNetworksPage />
+          <ThemeSwicher />
+        </ul>
+      </nav>
+    </header>
   );
 };

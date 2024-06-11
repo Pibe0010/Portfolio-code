@@ -9,35 +9,34 @@ import { LinksNavigate } from "../../LinksNavigate.jsx";
 
 export const CardSeven = () => {
   return (
-    <>
-      <section className="card">
-        <figcaption className="container-img">
-          <a href="https://trailer-movie.netlify.app/">
-            <img className="img" src={proyectSeven} alt="Foto mejore info" />
-          </a>
-        </figcaption>
-        <LinksNavigate
-          className="link-cards"
-          to="https://trailer-movie.netlify.app/">
-          <h3 className="card-title ">Trailer Peliculas</h3>
-        </LinksNavigate>
-        <p className="card-descr">
-          Encuentra tu película favorita y disfruta del último tráiler, junto
-          con las adiciones más recientes a nuestra selección de películas.
-          Explora los avances de las últimas incorporaciones y sumérgete en el
-          mundo del cine.
-        </p>
-        <section className="card-tech">
-          <img src={html} className="crad-tech-img"></img>
-          <img src={css} className="crad-tech-img"></img>
-          <img src={JS} className="crad-tech-img"></img>
-          <img src={react} className="crad-tech-img"></img>
+    <section className="card">
+      <figcaption className="container-img">
+        <a href="https://trailer-movie.netlify.app/">
+          <img className="img" src={proyectSeven} alt="Foto mejore info" />
+        </a>
+      </figcaption>
+      <LinksNavigate
+        className="link-cards"
+        to="https://trailer-movie.netlify.app/"
+      >
+        <h3 className="card-title ">Trailer Peliculas</h3>
+      </LinksNavigate>
+      <p className="card-descr">
+        Encuentra tu película favorita y disfruta del último tráiler, junto con
+        las adiciones más recientes a nuestra selección de películas. Explora
+        los avances de las últimas incorporaciones y sumérgete en el mundo del
+        cine.
+      </p>
+      <section className="card-tech">
+        <img src={html} className="crad-tech-img"></img>
+        <img src={css} className="crad-tech-img"></img>
+        <img src={JS} className="crad-tech-img"></img>
+        <img src={react} className="crad-tech-img"></img>
 
-          <a href="https://github.com/Pibe0010/Web-trailer-movies">
-            <img className="card-descr-tech " src={github} alt="logo github" />
-          </a>
-        </section>
+        <a href="https://github.com/Pibe0010/Web-trailer-movies">
+          <img className="card-descr-tech " src={github} alt="logo github" />
+        </a>
       </section>
-    </>
+    </section>
   );
 };

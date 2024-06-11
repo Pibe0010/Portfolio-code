@@ -11,30 +11,28 @@ import github from "../../../../public/Skills/github-svgrepo-com.svg";
 
 export const CardSerticatedFive = () => {
   return (
-    <>
-      <div className="card__serticated">
-        <Image className="img__serticated" src={serticatedFive} />
-        <div className="card__content">
-          <p className="card__title">Aptitud En Pruebas Técnicas</p>
-          <p className="card__description">
-            Desarrollo web Full-Stack. JavaScript. Dónde trabajamos con varios
-            fremaworks, usamos las teconogias como JavaScript, HTML, CSS, MySql
-            NODEJS, React, Vite, Workbench, Postman, Git Bash, GitLap, GitHub,
-            NPM, Express.
-          </p>
-          <p className="card__start">Inicio: 2-11-2023</p>
-          <p className="card__end">Fin: 14-3-2024</p>
-          <section className="card__Loader">
-            <img src={html} className="card-tech-img"></img>
-            <img src={css} className="card-tech-img"></img>
-            <img src={JS} className="card-tech-img"></img>
-            <img src={node} className="card-tech-img"></img>
-            <img src={react} className="card-tech-img"></img>
-            <img src={mysql} className="card-tech-img"></img>
-            <img src={github} className="card-tech-img"></img>
-          </section>
-        </div>
+    <div className="card__serticated">
+      <Image className="img__serticated" src={serticatedFive} />
+      <div className="card__content">
+        <p className="card__title">Aptitud En Pruebas Técnicas</p>
+        <p className="card__description">
+          Desarrollo web Full-Stack. JavaScript. Dónde trabajamos con varios
+          fremaworks, usamos las teconogias como JavaScript, HTML, CSS, MySql
+          NODEJS, React, Vite, Workbench, Postman, Git Bash, GitLap, GitHub,
+          NPM, Express.
+        </p>
+        <p className="card__start">Inicio: 2-11-2023</p>
+        <p className="card__end">Fin: 14-3-2024</p>
+        <section className="card__Loader">
+          <img src={html} className="card-tech-img"></img>
+          <img src={css} className="card-tech-img"></img>
+          <img src={JS} className="card-tech-img"></img>
+          <img src={node} className="card-tech-img"></img>
+          <img src={react} className="card-tech-img"></img>
+          <img src={mysql} className="card-tech-img"></img>
+          <img src={github} className="card-tech-img"></img>
+        </section>
       </div>
-    </>
+    </div>
   );
 };
