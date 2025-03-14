@@ -21,14 +21,14 @@ export const CardSix = () => {
         <h3 className="card-title ">Snake</h3>
       </LinksNavigate>
       <p className="card-descr">
-        Sumérgete en el clásico juego de Snake, donde controlas una serpiente y
-        debes recolectar todas las frutas para alcanzar la mayor puntuación
-        posible. ¡Demuestra tu destreza y habilidad en este desafío retro.
+        Sumérgete en el clásico juego de Snake, donde controlas una serpiente y debes
+        recolectar todas las frutas para alcanzar la mayor puntuación posible. ¡Demuestra
+        tu destreza y habilidad en este desafío retro.
       </p>
       <section className="card-tech">
-        <img src={html} className="crad-tech-img"></img>
-        <img src={css} className="crad-tech-img"></img>
-        <img src={JS} className="crad-tech-img"></img>
+        <img src={html} className="crad-tech-img" alt="Icono html"></img>
+        <img src={css} className="crad-tech-img" alt="Icono css"></img>
+        <img src={JS} className="crad-tech-img" alt="Icono JS"></img>
         <a href="https://github.com/Pibe0010/juego-snake-demo">
           <img className="card-descr-tech " src={github} alt="logo github" />
         </a>

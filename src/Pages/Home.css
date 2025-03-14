@@ -20,10 +20,12 @@
   font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 900;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .article-home .description {
   font-size: clamp(1rem, 5vw, 1.3rem);
   font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .article-home .ball {
   display: flex;
@@ -51,6 +53,7 @@
   font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 900;
   margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn-home .btn-container {
   width: 100%;
@@ -82,12 +85,12 @@
 
 @media (min-width: 1024px) {
   .container-home {
-    height: 100vh;
-    gap: 5rem;
-    padding-bottom: 20vh;
+    width: 100%;
+    height: 87vh;
+    align-items: normal;
   }
   .article-home {
-    margin: auto;
+    margin: 1rem auto;
   }
 
   .animation {

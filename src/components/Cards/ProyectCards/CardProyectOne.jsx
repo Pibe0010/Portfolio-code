@@ -17,12 +17,12 @@ export const CardOne = () => {
         <h3 className="card-title ">Las mejores info </h3>
       </LinksNavigate>
       <p className="card-descr">
-        Proporcionamos información precisa y confiable para ayudarte a tomar la
-        decisión que mejor se adapte a tus necesidades. Descubre valoraciones de
-        productos y opiniones genuinas.
+        Proporcionamos información precisa y confiable para ayudarte a tomar la decisión
+        que mejor se adapte a tus necesidades. Descubre valoraciones de productos y
+        opiniones genuinas.
       </p>
       <section className="card-tech">
-        <img src={wordpress} className="crad-tech-img"></img>
+        <img src={wordpress} className="crad-tech-img" alt="Icono wordpress"></img>
         <a href="#">
           <img className="card-descr-tech " src={github} alt="logo github" />
         </a>

@@ -11,6 +11,7 @@
   background: linear-gradient(380deg, rgb(255, 255, 255), #06c134a9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .proyects {
   display: flex;

@@ -37,9 +37,7 @@
   transition: 0.25s;
   border-radius: 50px;
 }
-.card-contact svg {
-  transform: scale(1);
-}
+
 .card-contact .social-link1:hover {
   animation: bounce_613 0.4s linear;
 }

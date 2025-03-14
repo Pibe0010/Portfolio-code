@@ -49,6 +49,7 @@
   font-size: 24px;
   color: #333;
   font-weight: 800;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card__serticated:hover .img__serticated {
@@ -61,6 +62,7 @@
   font-weight: 700;
   color: #777;
   line-height: 1.4;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .card-tech-img {
   display: none;

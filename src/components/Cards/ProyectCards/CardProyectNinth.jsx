@@ -22,16 +22,15 @@ export const CardNinth = () => {
         <h3 className="card-title ">React Rick And Morty</h3>
       </LinksNavigate>
       <p className="card-descr">
-        Encuentra tu personaje favorito de la serie animada rick and morty,
-        busca los capítulos que te gustaron, mira su localizaciones,
-        dimensiones, encontraras toda la información y personajes que
-        aparecieron en el episodio.
+        Encuentra tu personaje favorito de la serie animada rick and morty, busca los
+        capítulos que te gustaron, mira su localizaciones, dimensiones, encontraras toda
+        la información y personajes que aparecieron en el episodio.
       </p>
       <section className="card-tech">
-        <img src={html} className="crad-tech-img"></img>
-        <img src={css} className="crad-tech-img"></img>
-        <img src={JS} className="crad-tech-img"></img>
-        <img src={react} className="crad-tech-img"></img>
+        <img src={html} className="crad-tech-img" alt="Icono html"></img>
+        <img src={css} className="crad-tech-img" alt="Icono css"></img>
+        <img src={JS} className="crad-tech-img" alt="Icono JS"></img>
+        <img src={react} className="crad-tech-img" alt="Icono react"></img>
 
         <a href="https://github.com/Pibe0010/Rick-And-Morty">
           <img className="card-descr-tech " src={github} alt="logo github" />

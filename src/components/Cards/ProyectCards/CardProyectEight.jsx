@@ -23,16 +23,16 @@ export const CardEight = () => {
         <h3 className="card-title ">Dapp NFT Market</h3>
       </LinksNavigate>
       <p className="card-descr">
-        Transforma una foto en un NFT y publícalo en el marketplace para
-        compartir y exhibir tu obra digital. Descubre cómo tus creaciones cobran
-        vida en el mercado del arte digital.
+        Transforma una foto en un NFT y publícalo en el marketplace para compartir y
+        exhibir tu obra digital. Descubre cómo tus creaciones cobran vida en el mercado
+        del arte digital.
       </p>
       <section className="card-tech">
-        <img src={html} className="crad-tech-img"></img>
-        <img src={css} className="crad-tech-img"></img>
-        <img src={JS} className="crad-tech-img"></img>
-        <img src={react} className="crad-tech-img"></img>
-        <img src={solidity} className="crad-tech-img"></img>
+        <img src={html} className="crad-tech-img" alt="Icono html"></img>
+        <img src={css} className="crad-tech-img" alt="Icono css"></img>
+        <img src={JS} className="crad-tech-img" alt="Icono JS"></img>
+        <img src={react} className="crad-tech-img" alt="Icono react"></img>
+        <img src={solidity} className="crad-tech-img" alt="Icono solidity"></img>
 
         <a href="https://github.com/Pibe0010/Market-PLace-NFT">
           <img className="card-descr-tech " src={github} alt="logo github" />

@@ -39,28 +39,13 @@ export const Header = () => {
       <a href="/">
         <img className="logo" src={logo} alt="logo" />
       </a>
-      <MenuHamburger
-        className={`closeMenu ${addMenuOpen}`}
-        onClick={openMenuToggle}
-      />
+      <MenuHamburger className={`closeMenu ${addMenuOpen}`} onClick={openMenuToggle} />
       <nav className={`nav ${addClassMenu}`} id="nav">
         <ul className="navList">
-          <MenuNavLink name="INICIO" url="/" menuClose={openMenuToggle} />
-          <MenuNavLink
-            name="SOBRE MI"
-            url="/about"
-            menuClose={openMenuToggle}
-          />
-          <MenuNavLink
-            name="PROYECTOS"
-            url="/proyects"
-            menuClose={openMenuToggle}
-          />
-          <MenuNavLink
-            name="TITULACIÓNES"
-            url="/serticated"
-            menuClose={openMenuToggle}
-          />
+          <MenuNavLink name="Home" url="/" menuClose={openMenuToggle} />
+          <MenuNavLink name="About" url="/about" menuClose={openMenuToggle} />
+          <MenuNavLink name="Projects" url="/proyects" menuClose={openMenuToggle} />
+          <MenuNavLink name="Securities" url="/serticated" menuClose={openMenuToggle} />
           <SocialNetworksPage />
           <ThemeSwicher />
         </ul>

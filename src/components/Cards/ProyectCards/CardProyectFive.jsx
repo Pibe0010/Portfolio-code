@@ -21,14 +21,14 @@ export const CardFive = () => {
         <h3 className="card-title ">Phaser 3 </h3>
       </LinksNavigate>
       <p className="card-descr">
-        Embárcate en la aventura de recolectar estrellas a lo largo de la
-        pantalla. Al acumular 120 puntos, avanzarás al siguiente nivel. Pero
-        cuidado: una bomba caerá, y si chocas con ella, será el fin del juego.
+        Embárcate en la aventura de recolectar estrellas a lo largo de la pantalla. Al
+        acumular 120 puntos, avanzarás al siguiente nivel. Pero cuidado: una bomba caerá,
+        y si chocas con ella, será el fin del juego.
       </p>
       <section className="card-tech">
-        <img src={html} className="crad-tech-img"></img>
-        <img src={css} className="crad-tech-img"></img>
-        <img src={JS} className="crad-tech-img"></img>
+        <img src={html} className="crad-tech-img " alt="Icono html"></img>
+        <img src={css} className="crad-tech-img" alt="Icono css"></img>
+        <img src={JS} className="crad-tech-img" alt="Icono JS"></img>
         <a href="https://github.com/Pibe0010/Juego-Phaser3">
           <img className="card-descr-tech " src={github} alt="logo github" />
         </a>

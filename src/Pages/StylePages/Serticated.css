@@ -10,6 +10,7 @@
   font-size: clamp(1.7rem, 5vw, 3rem);
   font-weight: 900;
   margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .seticated-container .section-card {
   display: flex;

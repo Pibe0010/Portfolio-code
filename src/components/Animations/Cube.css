@@ -5,6 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 .cube {
@@ -26,15 +28,7 @@
   background: transparent;
   opacity: 0.9;
   border: 2px solid;
-  border-image: linear-gradient(
-      to right,
-      #ff6b6b,
-      #355c7d,
-      #557d35,
-      #cfcf16,
-      #a51f1f
-    )
-    1;
+  border-image: linear-gradient(to right, #ff6b6b, #355c7d, #557d35, #cfcf16, #a51f1f) 1;
   box-shadow: 0 0 100px #06c134a9;
 }
 

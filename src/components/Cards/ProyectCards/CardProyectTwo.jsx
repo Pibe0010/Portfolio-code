@@ -17,13 +17,12 @@ export const CardTwo = () => {
         <h3 className="card-title ">Luneva Shop </h3>
       </LinksNavigate>
       <p className="card-descr">
-        E-commerce de ventas de jabones artesanales. Puedes añadir jabones al
-        carrito, comprarlos, con tres secciones stock de jabones, próximamente
-        donde se añadirán nuevos productos y una sección de cuadros con resina
-        epoxi.
+        E-commerce de ventas de jabones artesanales. Puedes añadir jabones al carrito,
+        comprarlos, con tres secciones stock de jabones, próximamente donde se añadirán
+        nuevos productos y una sección de cuadros con resina epoxi.
       </p>
       <section className="card-tech">
-        <img src={wordpress} className="crad-tech-img"></img>
+        <img src={wordpress} className="crad-tech-img" alt="Icono wordpress"></img>
         <a href="#">
           <img className="card-descr-tech " src={github} alt="logo github" />
         </a>
