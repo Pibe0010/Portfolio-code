@@ -138,4 +138,16 @@ export const DataTechs = [
     name: "Python",
     star: "★",
   },
+  {
+    id: 24,
+    img: "../../public/Skills/python-svgrepo-com.svg",
+    name: "React Native",
+    star: "★",
+  },
+  {
+    id: 25,
+    img: "../../public/Skills/python-svgrepo-com.svg",
+    name: "Expres",
+    star: "★★★★",
+  },
 ];

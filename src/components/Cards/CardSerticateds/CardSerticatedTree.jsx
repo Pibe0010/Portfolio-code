@@ -16,21 +16,20 @@ export const CardSerticatedTree = () => {
       <div className="card__content">
         <p className="card__title">Dessarollo De Mini Aplicación Web</p>
         <p className="card__description">
-          Desarrollo web Full-Stack. JavaScript. Dónde trabajamos con varios
-          fremaworks, usamos las teconogias como JavaScript, HTML, CSS, MySql
-          NODEJS, React, Vite, Workbench, Postman, Git Bash, GitLap, GitHub,
-          NPM, Express.
+          Desarrollo web Full-Stack. JavaScript. Dónde trabajamos con varios fremaworks,
+          usamos las teconogias como JavaScript, HTML, CSS, MySql NODEJS, React, Vite,
+          Workbench, Postman, Git Bash, GitLap, GitHub, NPM, Express.
         </p>
         <p className="card__start">Inicio: 2-11-2023</p>
         <p className="card__end">Fin: 14-3-2024</p>
         <section className="card__Loader">
-          <img src={html} className="card-tech-img"></img>
-          <img src={css} className="card-tech-img"></img>
-          <img src={JS} className="card-tech-img"></img>
-          <img src={node} className="card-tech-img"></img>
-          <img src={react} className="card-tech-img"></img>
-          <img src={mysql} className="card-tech-img"></img>
-          <img src={github} className="card-tech-img"></img>
+          <img src={html} className="card-tech-img" alt="Icono html"></img>
+          <img src={css} className="card-tech-img" alt="Icono css"></img>
+          <img src={JS} className="card-tech-img" alt="Icono JS"></img>
+          <img src={node} className="card-tech-img" alt="Icono node"></img>
+          <img src={react} className="card-tech-img" alt="Icono react"></img>
+          <img src={mysql} className="card-tech-img" alt="Icono mysql"></img>
+          <img src={github} className="card-tech-img" alt="Icono github"></img>
         </section>
       </div>
     </div>

@@ -9,6 +9,9 @@ import { CardSeven } from "../components/Cards/ProyectCards/CardProyectSeven.jsx
 import { CardEight } from "../components/Cards/ProyectCards/CardProyectEight.jsx";
 import { CardNinth } from "../components/Cards/ProyectCards/CardProyectNinth.jsx";
 import "./StylePages/Proyects.css";
+import { CardTen } from "../components/Cards/ProyectCards/CardProyectTen.jsx";
+import { CardEleven } from "../components/Cards/ProyectCards/CardProjectEleven.jsx";
+import { CardTweeleve } from "../components/Cards/ProyectCards/CardProjectTweeleve.jsx";
 
 export const ProyectsPage = () => {
   return (
@@ -16,6 +19,9 @@ export const ProyectsPage = () => {
       <h1 className="title-proyect">Proyectos</h1>
       <section className="container-proyects">
         <article className="proyects">
+          <CardTweeleve />
+          <CardEleven />
+          <CardTen />
           <CardNinth />
           <CardOne />
           <CardTwo />

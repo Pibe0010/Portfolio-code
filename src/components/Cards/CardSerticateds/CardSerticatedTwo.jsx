@@ -16,21 +16,21 @@ export const CardSerticatedTwo = () => {
       <div className="card__content">
         <p className="card__title">Máster Completo De Blockchain y web3</p>
         <p className="card__description">
-          De cero a experto. Bolckchain y Web3. Dónde trabajamos con varios
-          fremaworks, usamos las teconogias como JavaScript, HTML, CSS, NODEJS,
-          React, Solidity, Ganache, Docker, Truffle Suite, Hardhat, Python,
-          Web3.js, Remix IDE, IPFS, Ether.js, Docker.
+          De cero a experto. Bolckchain y Web3. Dónde trabajamos con varios fremaworks,
+          usamos las teconogias como JavaScript, HTML, CSS, NODEJS, React, Solidity,
+          Ganache, Docker, Truffle Suite, Hardhat, Python, Web3.js, Remix IDE, IPFS,
+          Ether.js, Docker.
         </p>
         <p className="card__start">Inicio: 20-6-2023</p>
         <p className="card__end">Fin: 2-7-2023</p>
         <section className="card__Loader">
-          <img src={html} className="card-tech-img"></img>
-          <img src={css} className="card-tech-img"></img>
-          <img src={JS} className="card-tech-img"></img>
-          <img src={node} className="card-tech-img"></img>
-          <img src={react} className="card-tech-img"></img>
-          <img src={solidity} className="card-tech-img"></img>
-          <img src={python} className="card-tech-img"></img>
+          <img src={html} className="card-tech-img" alt="Icono html"></img>
+          <img src={css} className="card-tech-img" alt="Icono css"></img>
+          <img src={JS} className="card-tech-img" alt="Icono JS"></img>
+          <img src={node} className="card-tech-img" alt="Icono node"></img>
+          <img src={react} className="card-tech-img" alt="Icono react"></img>
+          <img src={solidity} className="card-tech-img" alt="Icono solidity"></img>
+          <img src={python} className="card-tech-img" alt="Icono python"></img>
         </section>
       </div>
     </div>

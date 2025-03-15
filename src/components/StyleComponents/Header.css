@@ -67,12 +67,11 @@ button {
     gap: 1rem;
     align-items: end;
     position: absolute;
-    top: 79px;
+    top: 60px;
     right: 0;
     background-color: rgb(33, 33, 33);
     padding: 2rem;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    width: 250px;
   }
   .nav.visible {
     opacity: 1;

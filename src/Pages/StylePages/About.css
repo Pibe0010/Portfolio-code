@@ -55,9 +55,7 @@
 .section-about .title-about {
   font-size: 3rem;
   margin: 0 auto;
-  background: linear-gradient(380deg, rgb(255, 255, 255), #06c134a9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-color: aliceblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .section-about h3 {
