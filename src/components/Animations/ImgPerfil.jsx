@@ -6,7 +6,7 @@ export const ImgPerfil = () => {
     <div className="loader_one">
       <div className="loader_cube loader_cube--color"></div>
       <div className="loader_cube loader_cube--glowing">
-        <img className="img-about" src={perfil}></img>
+        <img className="img-about" src={perfil} alt="Imagen de perfil"></img>
       </div>
     </div>
   );

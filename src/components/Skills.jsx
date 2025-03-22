@@ -6,10 +6,19 @@ export const Skills = () => {
     <>
       {DataTechs.map((skill) => {
         return (
-          <div className="tooltip-container" key={skill.id}>
-            <span className="tooltip"></span>
-            <span className="text">{skill.name}</span>
-            <span className="star">{skill.star}</span>
+          <div className="skill-container" key={skill.id}>
+            <div className="skill-box">
+              <div className="title-skill">
+                <span className="title">{`${skill.name}`} </span>
+                <img src={skill.img} className="img-tech" alt="Icon Techs" />
+              </div>
+
+              <div className="skill-bar">
+                <span className={`skill-per ${skill.name}`}>
+                  <span className="tooltip">{`${skill.star}`}%</span>
+                </span>
+              </div>
+            </div>
           </div>
         );
       })}
