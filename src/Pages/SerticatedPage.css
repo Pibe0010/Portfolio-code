@@ -1,0 +1,44 @@
+/* Certificates Page - Modern centered layout */
+
+.title-serticated {
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--theme-text-primary);
+  margin: 0 0 var(--spacing-xl);
+  position: relative;
+}
+
+.title-serticated::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--color-primary);
+  margin: var(--spacing-sm) auto 0;
+  border-radius: var(--radius-full);
+}
+
+.seticated-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.section-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .title-serticated {
+    font-size: var(--font-size-3xl);
+  }
+
+  .section-card {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,13 +1,14 @@
-import { Routes, Route } from "react-router-dom";
-import { NotFoundPage } from "./Pages/NotFoundPage.jsx";
-import { HomePage } from "./Pages/HomePage.jsx";
-import { AboutPage } from "./Pages/AboutPage.jsx";
-import { ProyectsPage } from "./Pages/ProyectsPage.jsx";
-import { SerticatedPage } from "./Pages/SerticatedPage.jsx";
+import { Routes, Route } from 'react-router-dom';
+import { NotFoundPage } from './Pages/NotFoundPage.jsx';
+import { HomePage } from './Pages/HomePage.jsx';
+import { AboutPage } from './Pages/AboutPage.jsx';
+import { ProyectsPage } from './Pages/ProyectsPage.jsx';
+import { SerticatedPage } from './Pages/SerticatedPage.jsx';
+import { PageTransition } from './components/ui/PageTransition.jsx';
 
 export const App = () => {
   return (
-    <>
+    <PageTransition>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -15,8 +16,8 @@ export const App = () => {
         <Route path="/serticated" element={<SerticatedPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </>
+    </PageTransition>
   );
-}
+};
 
 export default App;

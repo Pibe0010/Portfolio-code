@@ -1,0 +1,51 @@
+/**
+ * Theme System - Light/Dark Mode
+ * CSS Custom Properties for theming
+ */
+
+[data-theme='light'],
+:root {
+  /* Light Theme (default) */
+  --theme-bg-primary: #ffffff;
+  --theme-bg-secondary: #f2f2f2;
+  --theme-bg-tertiary: #e7e7e7;
+  --theme-bg-gradient: linear-gradient(380deg, rgb(255, 255, 255), rgba(6, 193, 52, 0.6));
+
+  --theme-text-primary: #111010;
+  --theme-text-secondary: #313030;
+  --theme-text-muted: #353434;
+
+  --theme-border-color: #e7e7e7;
+
+  --theme-shadow-color: rgba(0, 0, 0, 0.1);
+  --theme-glow-color: rgba(6, 193, 52, 0.4);
+
+  --theme-accent: #06c134;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --theme-bg-primary: #1d1f2c;
+  --theme-bg-secondary: #282828;
+  --theme-bg-tertiary: #323232;
+  --theme-bg-gradient: linear-gradient(380deg, #1d1f2c, rgba(6, 193, 52, 0.6));
+
+  --theme-text-primary: #f2f2f2;
+  --theme-text-secondary: #b3b3b3;
+  --theme-text-muted: #777777;
+
+  --theme-border-color: #323232;
+
+  --theme-shadow-color: rgba(0, 0, 0, 0.3);
+  --theme-glow-color: rgba(6, 193, 52, 0.2);
+
+  --theme-accent: #06c134;
+}
+
+/* Smooth transition between themes */
+[data-theme] {
+  transition:
+    background-color var(--transition-base),
+    color var(--transition-base),
+    border-color var(--transition-base);
+}

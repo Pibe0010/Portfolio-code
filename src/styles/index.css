@@ -1,0 +1,49 @@
+/**
+ * Main Styles Entry Point
+ * Import all style sheets here
+ */
+
+/* CSS Variables - Design Tokens */
+@import './variables.css';
+
+/* Theme System - Light/Dark Mode */
+@import './theme.css';
+
+/* Global Styles - Reset & Base */
+@import './global.css';
+
+/* Animations */
+@import './animations.css';
+
+/* Responsive */
+@import './responsive.css';
+
+[data-theme] {
+  background-color: var(--theme-bg-primary);
+  background: var(--theme-bg-gradient);
+  color: var(--theme-text-primary);
+}
+
+/* ===== ANIMATE.CSS INTEGRATION ===== */
+/* When using animate.css, add these utility classes */
+.animate-once {
+  animation-duration: 1s;
+  animation-iteration-count: once;
+}
+
+.animate-hover:hover {
+  animation-duration: 0.3s;
+}
+
+/* ===== RESPONSIVE HELPERS ===== */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
+}

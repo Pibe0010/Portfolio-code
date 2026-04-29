@@ -1,0 +1,193 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "name": "AI Programming",
+      "level": 85,
+      "icon": "/Skills/ai-programming.svg",
+      "category": "tools"
+    },
+    {
+      "id": 1,
+      "name": "CSS",
+      "level": 95,
+      "icon": "/Skills/css-3-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 2,
+      "name": "HTML",
+      "level": 95,
+      "icon": "/Skills/html-5-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "level": 95,
+      "icon": "/Skills/javascript-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 4,
+      "name": "Node.js",
+      "level": 95,
+      "icon": "/Skills/node-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "level": 95,
+      "icon": "/Skills/react-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 6,
+      "name": "VSCode",
+      "level": 95,
+      "icon": "/Skills/vscode-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 7,
+      "name": "MySQL",
+      "level": 95,
+      "icon": "/Skills/mysql-logo-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 8,
+      "name": "Netlify",
+      "level": 80,
+      "icon": "/Skills/netlify-svgrepo-com.svg",
+      "category": "devops"
+    },
+    {
+      "id": 9,
+      "name": "NPM",
+      "level": 95,
+      "icon": "/Skills/npm-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 10,
+      "name": "Vite",
+      "level": 90,
+      "icon": "/Skills/vite-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 11,
+      "name": "Bootstrap",
+      "level": 70,
+      "icon": "/Skills/bootstrap-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 12,
+      "name": "WordPress",
+      "level": 40,
+      "icon": "/Skills/wordpress-svgrepo-com.svg",
+      "category": "cms"
+    },
+    {
+      "id": 13,
+      "name": "GitHub",
+      "level": 70,
+      "icon": "/Skills/github-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 14,
+      "name": "Git",
+      "level": 70,
+      "icon": "/Skills/github-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 15,
+      "name": "Angular",
+      "level": 20,
+      "icon": "/Skills/angular-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 16,
+      "name": "Solidity",
+      "level": 20,
+      "icon": "/Skills/light-solidity-svgrepo-com.svg",
+      "category": "web3"
+    },
+    {
+      "id": 17,
+      "name": "PHP",
+      "level": 20,
+      "icon": "/Skills/php-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 18,
+      "name": "SASS",
+      "level": 20,
+      "icon": "/Skills/sass-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 19,
+      "name": "Firebase",
+      "level": 20,
+      "icon": "/Skills/firebase-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 20,
+      "name": "Webpack",
+      "level": 20,
+      "icon": "/Skills/webpack-svgrepo-com.svg",
+      "category": "tools"
+    },
+    {
+      "id": 21,
+      "name": "jQuery",
+      "level": 20,
+      "icon": "/Skills/jquery-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 22,
+      "name": "SQL",
+      "level": 20,
+      "icon": "/Skills/sql-database-sql-azure-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 23,
+      "name": "TypeScript",
+      "level": 10,
+      "icon": "/Skills/typescript-official-svgrepo-com.svg",
+      "category": "frontend"
+    },
+    {
+      "id": 24,
+      "name": "Python",
+      "level": 10,
+      "icon": "/Skills/python-svgrepo-com.svg",
+      "category": "backend"
+    },
+    {
+      "id": 25,
+      "name": "React Native",
+      "level": 40,
+      "icon": "/Skills/react-svgrepo-com.svg",
+      "category": "mobile"
+    },
+    {
+      "id": 26,
+      "name": "Express",
+      "level": 90,
+      "icon": "/Skills/node-svgrepo-com.svg",
+      "category": "backend"
+    }
+  ]
+}

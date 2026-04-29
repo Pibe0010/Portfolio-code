@@ -1,0 +1,84 @@
+{
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Universidad JavaScript",
+      "description": "De cero a experto. JavaScript, HTML, CSS, Node.js, TypeScript, Angular, Firebase. Desarrollo full stack con múltiples frameworks.",
+      "startDate": "2023-05-04",
+      "endDate": "2023-05-08",
+      "image": "/Serticated/UniversidaJavaScript.png",
+      "technologies": ["HTML", "CSS", "JavaScript", "Angular", "Node.js", "TypeScript", "Firebase"],
+      "institution": "Udemy"
+    },
+    {
+      "id": 2,
+      "title": "HackABoss - Desarrollo Web Full Stack",
+      "description": "Bootcamp intensivo de desarrollo web. HTML, CSS, JavaScript, React, Node.js, MySQL, MongoDB. Proyecto final completo.",
+      "startDate": "2023-09-01",
+      "endDate": "2024-03-01",
+      "image": "/Serticated/HackABoss1.png",
+      "technologies": ["React", "Node.js", "MySQL", "MongoDB", "JavaScript"],
+      "institution": "HackABoss"
+    },
+    {
+      "id": 3,
+      "title": "Tienda Online - Proyecto Freelance",
+      "description": "Desarrollo de e-commerce completo. Sistema de pagos, inventario, panel de admin, Stripe integration.",
+      "startDate": "2024-01-15",
+      "endDate": "2024-02-15",
+      "image": "/Serticated/TiendaOnline.png",
+      "technologies": ["React", "Node.js", "Stripe", "MongoDB"],
+      "institution": "Freelance"
+    },
+    {
+      "id": 4,
+      "title": "Proyectos Prácticos JavaScript",
+      "description": "Proyecto de múltiples aplicaciones JavaScript. DOM manipulation, eventos, async/await, APIs.",
+      "startDate": "2023-06-01",
+      "endDate": "2023-07-15",
+      "image": "/Serticated/Proyecto1.png",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "institution": "Udemy"
+    },
+    {
+      "id": 5,
+      "title": "React - Guía Definitiva",
+      "description": "Curso completo de React. Hooks, Context, Redux, React Router, Testing.",
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-15",
+      "image": "/Serticated/Proyecto2.png",
+      "technologies": ["React", "Redux", "React Router"],
+      "institution": "Udemy"
+    },
+    {
+      "id": 6,
+      "title": "Node.js - Servidor y Base de Datos",
+      "description": "Desarrollo de APIs con Node.js. Express, MongoDB, MySQL, authentication, JWT.",
+      "startDate": "2023-10-01",
+      "endDate": "2023-11-15",
+      "image": "/Serticated/HackABoss2.png",
+      "technologies": ["Node.js", "Express", "MongoDB", "MySQL"],
+      "institution": "HackABoss"
+    },
+    {
+      "id": 7,
+      "title": "CSS Moderno y Animaciones",
+      "description": "CSS Grid, Flexbox, animaciones, transiciones, responsive design avanzado.",
+      "startDate": "2023-07-01",
+      "endDate": "2023-07-30",
+      "image": "/Serticated/HackABoss3.png",
+      "technologies": ["CSS", "SASS", "Animaciones"],
+      "institution": "Udemy"
+    },
+    {
+      "id": 8,
+      "title": "Git y GitHub - Control de Versiones",
+      "description": "Control de versiones con Git. Ramas, merge conflicts, GitHub Actions, CI/CD básico.",
+      "startDate": "2023-09-01",
+      "endDate": "2023-09-15",
+      "image": "/Serticated/HackABoss1.png",
+      "technologies": ["Git", "GitHub"],
+      "institution": "HackABoss"
+    }
+  ]
+}

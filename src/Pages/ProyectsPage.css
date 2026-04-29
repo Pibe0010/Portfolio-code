@@ -1,0 +1,44 @@
+/* Projects Page - Modern centered layout */
+
+.title-proyect {
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--theme-text-primary);
+  margin: 0 0 var(--spacing-xl);
+  position: relative;
+}
+
+.title-proyect::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--color-primary);
+  margin: var(--spacing-sm) auto 0;
+  border-radius: var(--radius-full);
+}
+
+.container-proyects {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.proyects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--spacing-xl);
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .title-proyect {
+    font-size: var(--font-size-3xl);
+  }
+
+  .proyects {
+    grid-template-columns: 1fr;
+  }
+}

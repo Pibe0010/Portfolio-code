@@ -1,0 +1,112 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Las Mejores Info",
+      "description": "Proporcionamos información precisa y confiable para ayudarte a tomar la decisión que mejor se adapte a tus necesidades. Descubre valoraciones de productos y opiniones genuinas.",
+      "url": "https://thegodesigshop.com/",
+      "github": null,
+      "image": "/Proyects/mejores-info.png",
+      "technologies": ["WordPress"]
+    },
+    {
+      "id": 2,
+      "title": "Luneva Shop",
+      "description": "E-commerce de jabones artesanales. Carrito de compras, secciones de productos, stock management y sección de cuadros con resina epoxi.",
+      "url": "https://lunevashop.com/",
+      "github": null,
+      "image": "/Proyects/pexels-monstera-production-6621323.jpg",
+      "technologies": ["WordPress"]
+    },
+    {
+      "id": 3,
+      "title": "Tienda Online",
+      "description": "Tienda online de Stickers, Cuadros y Prints con pasarela de pagos Stripe, gestión de inventario y panel de administración.",
+      "url": "https://example.com",
+      "github": "https://github.com/Pibe0010/tienda-online",
+      "image": "/Proyects/Captura-de-pantalla.png",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "id": 4,
+      "title": "NFT Market",
+      "description": "DApp de marketplace NFT con integración Web3, compra y venta de NFTs coleccionables.",
+      "url": "https://nft-dapp-thegodesingcode.netlify.app/",
+      "github": "https://github.com/Pibe0010/NFT-Market-Dapp",
+      "image": "/Proyects/NFT-market.jpg",
+      "technologies": ["React", "Solidity", "Web3"]
+    },
+    {
+      "id": 5,
+      "title": "Rick & Morty API",
+      "description": "Explora el universo de Rick & Morty con esta app consume la API oficial. Búsqueda de personajes y lugares.",
+      "url": "https://rick-and-morty-api-pibe.netlify.app/",
+      "github": "https://github.com/Pibe0010/RickAndMortyAPI",
+      "image": "/Proyects/Rick-And-Morty.png",
+      "technologies": ["React", "API REST"]
+    },
+    {
+      "id": 6,
+      "title": "Movies Trailer",
+      "description": "Explora películas, mira trailers y añade tus favoritas a una lista personal. Consumiendo The Movie Database API.",
+      "url": "https://peliculas-trailer-pibe.netlify.app/",
+      "github": "https://github.com/Pibe0010/PeliculasTrailer",
+      "image": "/Proyects/pelis-trailer.jpg",
+      "technologies": ["React", "API REST", "CSS"]
+    },
+    {
+      "id": 7,
+      "title": "Base de Datos MySQL",
+      "description": "Sistema de gestión para tienda online con MySQL. Carrito de compras, pagos seguros y panel de administración completo.",
+      "url": "https://github.com/Pibe0010/Luneva-shop-NodeJS",
+      "github": "https://github.com/Pibe0010/Luneva-shop-NodeJS",
+      "image": "/Proyects/pexels-googledeepmind-17485657.jpg",
+      "technologies": ["HTML", "JavaScript", "Node.js", "MySQL"]
+    },
+    {
+      "id": 8,
+      "title": "Piedra Papel Tijera",
+      "description": "Juego clásico de piedra papel tijera contra la computadora. Interfaz interactiva con animaciones.",
+      "url": "https://juego-piedra-papel-tijera.netlify.app/",
+      "github": "https://github.com/Pibe0010/PiedraPapelTijera",
+      "image": "/Proyects/pedra.papel-tijera.png",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 9,
+      "title": "Snake Game",
+      "description": "El clásico juego de la serpia. Come manzanas, crece y evita chocar contigo mismo.",
+      "url": "https://snake-game-pibe.netlify.app/",
+      "github": "https://github.com/Pibe0010/SnakeGame",
+      "image": "/Proyects/snake.webp",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 10,
+      "title": "Raz3r",
+      "description": "Juego de navegador tipo arcade. Dispara a los enemigos y acumula puntos.",
+      "url": "https://raz3r-game.netlify.app/",
+      "github": "https://github.com/Pibe0010/Raz3r",
+      "image": "/Proyects/raz3r.png",
+      "technologies": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 11,
+      "title": "Universidad JavaScript",
+      "description": "Curso de JavaScript desde cero. Fundamentos, DOM, eventos y proyectos prácticos.",
+      "url": "https://universidad-javascript-pibe.netlify.app/",
+      "github": "https://github.com/Pibe0010/UniversidadJavaScript",
+      "image": "/Proyects/Captura-de-pantalla-(2).png",
+      "technologies": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 12,
+      "title": "HackABoss Projects",
+      "description": "Proyectos realizados durante el bootcamp de desarrollo web. Portfolio completo de proyectos.",
+      "url": "https://hackaboss-projects.netlify.app/",
+      "github": "https://github.com/Pibe0010/HackABoss",
+      "image": "/Proyects/pexels-monstera-production-6621323.jpg",
+      "technologies": ["React", "Node.js", "TypeScript"]
+    }
+  ]
+}

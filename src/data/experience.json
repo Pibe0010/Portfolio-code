@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "name": "Dani",
+    "title": "Desarrollador Web Jr.",
+    "description": "¡Hola! Soy programador Jr. con enfoque en el desarrollo web y app. Me encanta la tecnología, el poder ayudar. He decidido dar un cambio en vida y dedicarme, a lo que más me gusta que es programar. Soy resolutivo, me gusta trabajar en equipo, la experiencia en el bootcamp que realice me ha gustado mucho el poder conocer a gente con mis mismos objetivos y poder ayudarlos y compartir experiencias dudas ha sido muy satisfactorio. Actualmente, sigo ampliando mis conocimientos en el Boost Academy de Hack a Boss."
+  },
+  "studies": [
+    {
+      "id": 1,
+      "institution": "HackABoss",
+      "title": "Desarrollo Web Full Stack",
+      "technologies": ["HTML", "CSS", "JavaScript", "MySQL", "Node.js", "React"],
+      "period": "2023-09 - 2024-03"
+    },
+    {
+      "id": 2,
+      "institution": "Udemy",
+      "title": "Universidad JavaScript",
+      "technologies": ["HTML", "CSS", "JavaScript", "TypeScript", "Angular"],
+      "period": "2023-05 - 2023-08"
+    },
+    {
+      "id": 3,
+      "institution": "Udemy",
+      "title": "Desarrollo Web Moderno",
+      "technologies": ["HTML", "CSS", "JavaScript", "Solidity", "Node.js", "React"],
+      "period": "2023-06 - 2023-07"
+    },
+    {
+      "id": 4,
+      "institution": "Udemy",
+      "title": "WordPress Development",
+      "technologies": ["WordPress", "PHP"],
+      "period": "2023-04 - 2023-05"
+    }
+  ],
+  "social": {
+    "email": "dani@example.com",
+    "github": "https://github.com/Pibe0010",
+    "linkedin": "https://linkedin.com/in/dani",
+    "location": "Spain"
+  }
+}

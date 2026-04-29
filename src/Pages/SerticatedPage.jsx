@@ -1,30 +1,23 @@
-import { MainLayout } from "../Layout/MainLayout.jsx";
-import { CardSerticatedOne } from "../components/Cards/CardSerticateds/CardSerticatedOne.jsx";
-import { CardSerticatedTwo } from "../components/Cards/CardSerticateds/CardSerticatedTwo.jsx";
-import { CardSerticatedTree } from "../components/Cards/CardSerticateds/CardSerticatedTree.jsx";
-import { CardSerticatedFor } from "../components/Cards/CardSerticateds/CardSerticatedFor.jsx";
-import { CardSerticatedFive } from "../components/Cards/CardSerticateds/CardSeticatedFive.jsx";
-import { CardSerticatedSix } from "../components/Cards/CardSerticateds/CardSerticatedSix.jsx";
-import "./StylePages/Serticated.css";
-import { CardSerticatedSeven } from "../components/Cards/CardSerticateds/CardSerticatedSeven.jsx";
-import { CardSerticatedEight } from "../components/Cards/CardSerticateds/CardSerticatedeEight.jsx";
+import { MainLayout } from '../Layout/MainLayout.jsx';
+import { CertificateCard } from '../components/ui/CertificateCard.jsx';
+import { getCertificates } from '../data/index.js';
+import './SerticatedPage.css';
 
 export const SerticatedPage = () => {
+  const certificates = getCertificates();
+
   return (
     <MainLayout>
       <section className="seticated-container">
-        <h1 className="title-serticated">Sertificados Optenidos</h1>
+        <h1 className="title-serticated">Certificados</h1>
         <section className="section-card">
-          <CardSerticatedOne />
-          <CardSerticatedTwo />
-          <CardSerticatedTree />
-          <CardSerticatedFor />
-          <CardSerticatedFive />
-          <CardSerticatedSix />
-          <CardSerticatedSeven />
-          <CardSerticatedEight />
+          {certificates.map((certificate) => (
+            <CertificateCard key={certificate.id} certificate={certificate} />
+          ))}
         </section>
       </section>
     </MainLayout>
   );
 };
+
+export default SerticatedPage;

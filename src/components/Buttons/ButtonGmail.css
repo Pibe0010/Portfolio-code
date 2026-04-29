@@ -1,0 +1,46 @@
+.button-gmail {
+  padding: 0;
+  width: 160px;
+  height: 48px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #06c134a9;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.button-gmail:hover {
+  background: #06c134a9;
+  color: #fff;
+  box-shadow: 0 0 30px 5px #06c134a9;
+  transition: all 0.2s ease-out;
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button-gmail:active {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.2s ease-in;
+}

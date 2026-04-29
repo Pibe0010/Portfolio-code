@@ -1,62 +1,55 @@
-import "./StylePages/About.css";
-import { MainLayout } from "../Layout/MainLayout.jsx";
-import { Skills } from "../components/Skills.jsx";
-import { ImgPerfil } from "../components/Animations/ImgPerfil.jsx";
-import logo from "../assets/4913181.png";
+import './About.css';
+import { MainLayout } from '../Layout/MainLayout.jsx';
+import { Skills } from '../components/Skills.jsx';
+import { getProfile, getStudies } from '../data/index.js';
+import profileImg from '../assets/img/foto-perfil.png';
 
+/**
+ * AboutPage - Modern centered design
+ */
 export const AboutPage = () => {
+  const profile = getProfile();
+  const studies = getStudies();
+
   return (
     <MainLayout>
-      <section className="container-about">
-        <article className="article-about">
-          <ImgPerfil />
-          <p className="description-about">
-            ¡Hola! Soy programador Jr. con enfoque en el desarrollo web y app.
-            Me encanta la tecnología, el poder ayudar. He decidido dar un cambio
-            en vida y dedicarme, a lo que más me gusta que es programar. Soy
-            resolutivo, me gusta trabajar en equipo, la experiencia en el
-            bootcamp que realice me ha gustado mucho el poder conocer a gente
-            con mis mismos objetivos y poder ayudarlos y compartir experiencias
-            dudas ha sido muy satisfactorio. Actualmente, sigo ampliando mis
-            conocimientos en el Boost Academy de Hack a Boss.
-          </p>
-          <div className="ball">
-            <div></div>
-            <div></div>
-            <div></div>
+      <section className="about-container">
+        <h1 className="about-title">Sobre Mí</h1>
+        
+        <div className="about-hero">
+          <div className="about-hero__image">
+            <img src={profileImg} alt={profile.name} />
           </div>
-        </article>
-        <section className="section-about">
-          <article>
-            <h2 className="title-about">Estudios</h2>
-            <section>
-              <h3>HACK A BOSS</h3>
-              <span>HTML, CSS, JavaScript, MYSQL, NodeJS, React</span>
-            </section>
-            <section>
-              <h3>Udemy</h3>
-              <span>HTML, CSS, JavaScript, TypeScript, NodeJS, Angular</span>
-            </section>
-            <section>
-              <h3>Udemy</h3>
-              <span>HTML, CSS, JavaScript, Solidity, NodeJS, React,</span>
-            </section>
-            <section>
-              <h3>Udemy</h3>
-              <span>WordPress</span>
-            </section>
-            <section className="img-logo">
-              <img className="logo-about" src={logo} alt="logo" />
-            </section>
-          </article>
-        </section>
-        <section className="skills">
-          <h2>Conocimientos</h2>
-          <article>
-            <Skills />
-          </article>
-        </section>
+          
+          <div className="about-hero__content">
+            <p className="about-hero__text">{profile.description}</p>
+          </div>
+        </div>
+
+        <div className="about-studies">
+          <h2 className="about-section-title">Formación</h2>
+          <div className="about-studies__list">
+            {studies.map((study) => (
+              <div key={study.id} className="about-study__card">
+                <span className="about-study__period">{study.period}</span>
+                <h3 className="about-study__title">{study.title}</h3>
+                <span className="about-study__institution">{study.institution}</span>
+                <div className="about-study__tech">
+                  {study.technologies.map((tech) => (
+                    <span key={tech} className="about-study__tech-tag">{tech}</span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="about-skills">
+          <Skills />
+        </div>
       </section>
     </MainLayout>
   );
 };
+
+export default AboutPage;
